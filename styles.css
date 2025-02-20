@@ -1,0 +1,89 @@
+body {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    background: lightgray;
+    margin: 0;
+    padding: 0;
+}
+
+.page_header {
+    border-bottom: 1px solid whitesmoke;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.page_header > div {
+    width: 600px;
+}
+
+.exo-2-headers {
+    font-family: "Exo 2", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+.container {
+    width: 600px;
+    margin: auto;
+    display: flex;
+}
+
+article {
+    border: 1px solid whitesmoke;
+    background: white;
+    margin-bottom: 60px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+}
+
+article > header {
+    padding: 0px 14px;
+}
+
+.post_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title_container h2 {
+    font-size: 18px;
+}
+
+.post_title > div {
+    width: 50%;
+}
+
+.date_container {
+    text-align: right;
+    color: darkgray;
+}
+
+.image_container {
+    border-bottom: 1px solid gainsboro;
+    border-top: 1px solid gainsboro;
+}
+
+.comment_container {
+    padding: 0px 24px;
+}
+
+img {
+    max-width: 598px;
+}
+
+span {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
